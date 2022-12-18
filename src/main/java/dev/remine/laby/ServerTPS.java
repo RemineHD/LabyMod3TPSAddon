@@ -41,7 +41,6 @@ public class ServerTPS extends LabyModAddon {
         serverTPS.clear();
         systemTime = 0;
         serverTime = 0;
-        getApi().displayMessageInChat("Server Pre Login");
     }
 
     @Subscribe
