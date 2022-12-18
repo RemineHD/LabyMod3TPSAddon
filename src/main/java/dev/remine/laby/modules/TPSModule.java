@@ -41,13 +41,19 @@ public class TPSModule extends SimpleModule {
     }
 
     @Override
+    public String getControlName()
+    {
+        return "Server TPS";
+    }
+
+    @Override
     public String getDescription() {
-        return "Test";
+        return "";
     }
 
     @Override
     public int getSortingId() {
-        return 0;
+        return 18;
     }
 
     @Override
@@ -57,6 +63,8 @@ public class TPSModule extends SimpleModule {
 
     @Override
     public String getDisplayValue() {
+        if (ServerTPS.calculateServerTPS() > 20)
+            return String.valueOf(20);
         return String.format("%.1f", ServerTPS.calculateServerTPS());
     }
 
