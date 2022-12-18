@@ -24,9 +24,9 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: 'org.spongepowered.mixin'
 
-version = '1.0.0'
+version = '1.1'
 group = 'dev.remine.laby' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'ServerTPS-LabyModAddon'
+archivesBaseName = 'ServerTPS'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 
