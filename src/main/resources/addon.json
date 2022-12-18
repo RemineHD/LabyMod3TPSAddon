@@ -1,6 +1,8 @@
 {
-  "name": "Example Addon",
+  "name": "Server TPS",
   "uuid": "%uuid%",
-  "mainClass": "com.example.addon.ExampleAddon",
-  "transformerClass": "com.example.addon.ExampleAddonTransformer"
+  "mainClass": "dev.remine.laby.ServerTPS",
+  "author":"elremineh",
+  "description":"This addon will show you the current TPS of the server you are connected to.",
+  "category":2
 }
